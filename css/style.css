@@ -1,0 +1,182 @@
+/*=====================
+header
+======================*/
+
+header {
+  height: 128px;
+  background-color: rgb(245, 245, 245);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-img {
+  height: 49px;
+  width: 185px;
+  margin: 0 auto;
+}
+
+/*=====================
+main
+======================*/
+
+.main {
+  background-color: rgb(245, 245, 245);
+  margin: 0 auto;
+}
+
+.main-wrapper {
+  background-color: white;
+  width: 700px;
+  height: 951px;
+  margin: 0 auto;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+
+
+section {
+  width: 375px;
+  padding: 32px 16px;
+  margin: 0 auto;
+  border-bottom: 1px solid rgb(245, 245, 245);
+}
+
+/*=====================
+main-top
+======================*/
+
+.main-top-title {
+  color: #333;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.main-product {
+  display: flex;
+}
+
+.main-product img {
+  height: 80px;
+  width: 80px;
+}
+
+/*=====================
+======================*/
+
+.product-content {
+  display: flex;
+}
+
+.product {
+  margin-left: 8px;
+}
+
+.product-title {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.product-price {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/*=====================
+======================*/
+
+.payment {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.payment-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.payment-amount {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+label {
+  font-size: 14px;
+  color: #888;
+  display: flex;
+  justify-content: left;
+}
+
+.point-checkbox {
+  background-color: #ccc;
+  height: 20px;
+  width: 20px;
+}
+
+
+
+
+.payment-method {
+  display: flex;
+  justify-content: space-between;
+}
+
+.payment-title {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.change {
+  font-size: 14px;
+  color: #0095ee;
+  text-decoration: none;
+}
+
+.payment-info {
+  text-align: left;
+}
+
+.payment-info p {
+  font-size: 14px;
+  color: #333;
+}
+
+.payment-info img {
+  width: 48px;
+  height: 16px; 
+  margin-top: 8px;
+}
+
+/*=====================
+配送先
+======================*/
+.purchase {
+  border: none;
+  /* padding: 24px 16px 48px; */
+}
+
+.purchase-text {
+  font-size: 14px;
+  color: #888;
+  line-height: 1.5;
+  text-align-last: left;
+  margin-bottom: 24px;
+}
+
+.btn {
+  width: 343px;
+  height: 50px;
+  background-color: rgb(234, 53, 45);
+  color: white;
+  font-size: 14px;
+  border-radius: 4px;
+  border: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
